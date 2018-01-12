@@ -6,7 +6,7 @@ yarn.lock
 package-lock.json
 node_modules/
 
-# Ignore unused verdors' files
+#  Ignore unused verdors' files
 source/lib/fancybox/*
 !source/lib/fancybox/source/
 

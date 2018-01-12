@@ -741,7 +741,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: true
@@ -763,6 +763,7 @@ canvas_ribbon:
   alpha: 0.6
   zIndex: -1
 
+use_motion: false
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
 # For example
@@ -820,7 +821,7 @@ vendors:
 
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
-  canvas_nest:
+  canvas_nest: true
 
   # three
   three:
