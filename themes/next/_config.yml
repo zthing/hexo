@@ -88,6 +88,36 @@ seo: false
 # subtitle: Subtitle
 index_with_subtitle: false
 
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+# 模型名称 默认值: z16
+  model: koharu
+# 宽度 默认值: 150
+#  width: 150
+# 高度 默认值: 300
+#  height: 300
+# 分辨率缩放倍率 默认值: 2
+#  scaling: 1
+# 初始的透明度 默认值: 0.7
+#  opacityDefault: 0.7 
+# 鼠标悬浮时的透明度 默认值: 1
+#  opacityHover: 1
+# 是否在移动设备上显示 默认值: true
+#  mobileShow: true
+# 移动设备缩放倍率 默认值: 0.5
+#  mobileScaling: 0.5
+# 模型左右侧放置位置 默认值: right
+#  position: right
+# 元素的水平偏移 默认值: 0
+#  horizontalOffset: 0
+# 元素的底部偏移 默认值: -20
+#  verticalOffset: -20
+# 元素的id 默认值: live2dcanvas
+#  id: live2dcanvas
+# current-device 脚本的来源 默认值: local
+#  deviceJsSource: local
+
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -100,10 +130,10 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  about: /about/ || user
-  tags: /tags/ || tags
-  categories: /categories/ || th
   archives: /archives/ || archive
+  categories: /categories/ || th
+  tags: /tags/ || tags
+  about: /about/ || user
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -230,8 +260,8 @@ auto_excerpt:
 # Post meta display settings
 post_meta:
   item_text: true
-  created_at: true
-  updated_at: false
+  created_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
@@ -714,7 +744,7 @@ pace_theme: pace-theme-minimal
 canvas_nest: false
 
 # three_waves
-three_waves: false
+three_waves: true
 
 # canvas_lines
 canvas_lines: false
