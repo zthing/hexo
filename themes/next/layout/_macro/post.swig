@@ -380,7 +380,7 @@
 
             {% if theme.facebook_sdk.enable and theme.facebook_sdk.like_button %}
               <div class="fb_like">
-                <div class="fb-like" data-layout="button_count" data-share="true"></div>
+                <div class="fb-like" data-layout="button_count" data-share="true"></div>								
               </div>
             {% endif %}
           </div>

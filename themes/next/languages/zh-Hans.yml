@@ -27,6 +27,8 @@ post:
   sticky: 置顶
   posted: 发表于
   in: 分类于
+  comments: 评论
+  Comments: 评论
   read_more: 阅读全文
   untitled: 未命名
   toc_empty: 此文章未包含目录
@@ -96,3 +98,4 @@ reward:
   bitcoin: 比特币
 
 gitmentbutton: 显示 Gitment 评论
+
